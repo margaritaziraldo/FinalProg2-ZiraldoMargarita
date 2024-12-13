@@ -1,0 +1,21 @@
+<%- include('./partials/head') %>
+
+</head>
+<body class="body-detalle">
+<%- include('./partials/header') %>
+
+    <div class="uk-container">
+        <div class="uk-section">
+            <h1 class="uk-text-center">Datos del Perfil</h1>
+            <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+
+                <% if(socioId !== null){ %>
+                    <h3>Su número de socio es: <%= socioId %></h3>
+                <% } else { %>
+                    <h3>Por favor gestione su número de socio</h3
+                    <% } %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

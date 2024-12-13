@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+a {
+  color: #00B7FF;
+}
+header, header nav{
+  height: 100px;
+}
+
+header img.logo{
+    width: 50px;
+}
+
+h1,h2,h3{
+  background-color: #ffffffad;
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* detalle de producto */
+
+.body-detalle img.imagen-producto{
+  width: 20%;
+
+}
+
+.uk-card {
+  margin-top: 20px;
+}
+
+body{
+  background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/images/fondo.jpg');
+    min-height: 130vh;
+}
+

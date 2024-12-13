@@ -1,0 +1,20 @@
+<%- include('./partials/head') %>
+
+</head>
+<body class="body-detalle">
+<%- include('./partials/header') %>
+
+    <div class="uk-container">
+        <div class="uk-section">
+            <h1 class="uk-text-center"><%= jugador.nombre %> <%= jugador.apellido %></h1>
+
+            <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                <!-- Agregar la ruta y nombre de la foto -->
+                <img class="imagen-producto" src="/images/<%= jugador.foto %>"  alt="Imagen del jugador">
+                <h2>Club: <%=jugador.equipo.nombreClub%></h2>
+                <h3>Posicion: <%= jugador.posicion %></h3>
+            </div>      
+        </div>
+    </div>
+</body>
+</html>
